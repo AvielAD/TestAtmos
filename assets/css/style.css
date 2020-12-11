@@ -1,12 +1,3 @@
-/*!
- * Temlate Name: Launch
- * Version: 1.0
- * Author: Justin Audain
- * License: Creative Commons Attribution 3.0 License
- * Website: http://themes.audaindesigns.com
- */
-
-/*-Base-*/
 
 body {
 	background-color:#ECEBEB;
@@ -21,8 +12,9 @@ a {
 
 /*-Header-*/
 .header {
-	background-color: #99DEAB;
-	border-bottom: 5px solid #85AD90;
+	background-color: rgb(0, 0, 0);
+	color: #1c95f8;
+	border-bottom: 5px solid #1c95f8;
 	padding: 30px 0px;
 }
 .goal-summary {
@@ -38,18 +30,19 @@ a {
 	border:0;
 }
 .goal-summary .backers h3, .goal-summary .funded h3, .goal-summary .time-left h3 {
-	background-color:#fff;
+	background-color:#1c95f8;
 	padding:5px;
 	margin:0px 0px 5px 0px;
 	display:table;
 	border-radius:4px;
-	color:#85AD90;
+	color:#fff;
 }
 .goal-summary .backers span, .goal-summary .funded span, .goal-summary .time-left span {
 	color:#fff;
 }
 .goal-summary .reminder a {
-	background-color:#fff;
+	background-color:#1c95f8;
+	color: white;
 	padding:8px;
 	margin:0px 0px 10px 0px;
 	display:table;
@@ -57,8 +50,8 @@ a {
 	text-decoration:none;
 }
 .goal-summary .reminder a:hover, .goal-summary .reminder a:focus {
-	background-color:#85AD90;
-	color:#fff;
+	background-color:#fff;
+	color:#1c95f8;
 }
 @media (max-width: 767px) {
 	.goal-summary {
@@ -80,7 +73,7 @@ a {
 	margin-bottom:30px;
 }
 .section-block.summary {
-    background-color: #99DEAB;
+    background-color: #000;
 }
 .section-block.summary h1 {
     color: #fff;
@@ -97,7 +90,7 @@ a {
 	margin-top:0;
 }
 .section-title {
-	color: #99DEAB;
+	color: #1c95f8;
 	border-radius: 4px;
 	display: table;
 	padding: 10px 0px;
@@ -113,7 +106,7 @@ a {
 /*-Profile Summary-*/
 .profile-contents {
 	margin: 0 auto;
-    text-align: center;
+	text-align: center;
 }
 .profile-contents h2 {
 	color:#FFF;
@@ -133,13 +126,13 @@ a {
 	margin:5px;
 }
 .profile-contents ul li a {
-	background-color: #85AD90;
+	background-color: #1c95f8;
 	color: #FFF;
 	height: 40px;
 	width: 40px;
 	display: inline-block;
 	text-align: center;
-	-webkit-border-radius: 50%;
+	border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	-o-border-radius: 50%;
@@ -153,9 +146,8 @@ a {
 }
 
 /*-Funding Meta-*/
-.funding-meta {}
 .funding-meta h1 {
-	background: #99DEAB;
+	background: #1c95f8;
 	color: #fff;
 	border-radius: 4px;
 	display: table;
@@ -164,17 +156,18 @@ a {
 	font-weight:700;
 }
 .type-meta {
-	color:#A7A7A7;
+	color:#000;
 	font-size: 12px;
 	display: inline-block;
 	margin: 0px 10px 10px 0px;
 }
 .type-meta i.fa {
-	color:#99DEAB;
+	color:#000;
 	margin-right:5px;
 }
 .funding-meta h2{
 	font-weight:700;
+	color: #1c95f8;
 }
 .funding-meta p {
 	color: #A7A7A7;
@@ -215,7 +208,7 @@ a {
 	padding-right:5px;
 }
 .progress-bar {
-	background-color: #99DEAB;
+	background-color: #1c95f8;
 	box-shadow:none;
 }
 .progress {
@@ -233,9 +226,7 @@ a {
 	padding: 20px;
 	margin-bottom:10px;
 }
-.reward-block:hover {
-	background-color: #DCF7E3;
-}
+
 .reward-block.last {
 	margin-bottom:0;
 }
@@ -252,7 +243,7 @@ a {
 .reward-block h2 {
 	font-size: 20px;
 	font-weight: 300;
-	color: #99DEAB;
+	color: #1c95f8;
 	margin: 15px 0px;
 }
 .reward-block i.fa {
@@ -294,13 +285,13 @@ a {
 @media (max-width: 767px) {
 	.signup-input {
 		width: 75%;
-		max-width: 100%%;
+		max-width: 100%;
 	}
 }
 @media (max-width: 480px) {
 	.signup-input {
 		width: 100%;
-		max-width: 100%%;
+		max-width: 100%;
 	}
 	.sign-up-form .btn.btn-signup {
 		margin:10px 0px;
@@ -315,7 +306,7 @@ a {
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
 	color: #FFF;
-	background-color: #99DEAB;
+	background-color: #000;
 	border: 0;
 	border-radius: 4px;
 	font-weight:700;
@@ -356,14 +347,16 @@ a {
 	border:0;
 }
 .btn.btn-launch {
-	background-color: #99DEAB;
+	background-color: #1c95f8;
 	color: #FFF;
 	font-size: 17px;
 	font-weight: 600;
 	padding: 10px 25px;
 }
 .btn.btn-launch:hover, .btn.btn-launch:focus,.btn.btn-reward, .btn.btn-reward:hover, .btn.btn-reward :focus {
-	background-color:#85AD90;
+	background-color:#fff;
+	color: #1c95f8;
+	border: solid 1px;
 	box-shadow:none;
 }
 .btn.btn-reward {
@@ -383,12 +376,14 @@ a {
 	text-align: center;
 }
 .btn.btn-contact {
-	background-color: #85AD90;
+	margin-top: 2rem;
+	background-color: #1c95f8;
 	color: #fff;
 	font-weight:700;
 }
 .btn.btn-contact:hover, .btn.btn-contact:focus {
-	background-color: #779A81;
+	background-color: #fff;
+	color: #1c95f8;
 }
 .btn.btn-contact i.fa {
 	margin-right:10px;
@@ -423,7 +418,7 @@ a {
 
 /*-Footer-*/
 .footer {
-	background-color: #85AD90;
+	background-color: #000;
 	padding: 10px;
 	text-align:center;
 }
@@ -431,8 +426,7 @@ a {
 	color:#F7F7F7;
 }
 .copyright a {
-	background: #fff;
-	color: #85AD90;
+	color: #fff;
 	padding: 0px 5px;
 	margin-left: 4px;
 	border-radius: 4px;
@@ -445,4 +439,98 @@ a {
 /*-Overrides-*/
 .btn, input{
 	outline:none;
-	{
+}
+
+/**
+personal Css
+*/
+
+.imageBanner2{
+	width: 100%;
+}
+
+
+
+/**
+Section Modal !!!!!!!!
+*/
+.modal-contenido{
+	background-color:aqua;
+	width:300px;
+	padding: 10px 20px;
+	margin: 20% auto;
+	position: relative;
+}
+
+.modal{
+	background-color: rgba(0,0,0,.8);
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	opacity:0;
+	pointer-events:none;
+	transition: all 1s;
+}
+
+#miModal:target{
+	opacity:1;
+	pointer-events:auto;
+ }
+ /**styles utils*/
+ .blue-t{
+	 color: #1c95f8 !important;
+ }
+ .blue-bg{
+	background-color: #1c95f8 !important;
+}
+.mt-1{
+	margin-top: 3rem;
+}
+
+.socialMedia{
+	margin-top: 2rem;
+}
+
+.socialMedia a{
+	margin: 1rem;
+}
+
+/** List Container items*/
+
+.containerList ul{
+	list-style: none;
+	width: 100%;
+}
+
+.containerList ul li::before{
+	content: '✓';
+}
+
+/**layout */
+.cont{
+	display: flex;
+}
+
+.row{
+	flex-direction: row;
+}
+
+.col{
+	flex-direction: column;
+}
+
+.col li{
+	margin-top: 3rem;
+}
+
+@media (max-width: 576px) {
+	.cont{
+		display: flex ;
+		flex-flow: row wrap;
+	}
+
+
+}
+
